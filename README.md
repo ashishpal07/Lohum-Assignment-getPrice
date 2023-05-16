@@ -2,6 +2,8 @@
 ### Question : 
     Create a RestFul API that returns the price mentioned on this website - [link](https://www.metal.com/Lithium-ion-Battery/202303240001)
 
+    ![Screenshot](question.png)
+
     - The API can be using any framework of your choice e.g. Flask, Nodejs
     - The API would be have endpoint `GET /price`
     - Every time the API is hit, you should scrape this [webpage](https://www.metal.com/Lithium-ion-Battery/202303240001), and get the latest price
