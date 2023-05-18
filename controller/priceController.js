@@ -15,7 +15,7 @@ module.exports.getPrice = async (req, res) => {
 
 async function scrapWebAndGetPrice() {
 
-    const url = process.env.URL;
+    const url = process.env.BASE_URL;
     
     const response = await axios.get(url);
 
